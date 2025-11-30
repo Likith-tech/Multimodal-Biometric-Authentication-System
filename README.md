@@ -77,29 +77,23 @@ pip install -r requirements.txt
 http://localhost:5000
 
 ## 🌐 How It Works
-
-- Upload a fingerprint image and ECG (.dat + .hea) file
-
+- Upload a **fingerprint image** and **ECG (.dat + .hea)** file
 - System preprocesses & extracts feature embeddings using deep learning
+- Predictions from both modalities are fused using **score-level averaging**
+- Final identity result & confidence value displayed in the browser
 
-- Individual predictions are fused using score-level averaging
-
-- Final identity result + confidence displayed on browser
+---
 
 ## 🔮 Future Scope
-
 - Mobile-based biometric authentication application
-
-- Support for additional modalities (face / voice)
-
-- Edge-device deployment (Jetson Nano / Raspberry Pi)
-
+- Support for additional modalities (**face / voice**)
+- Edge-device deployment (**Jetson Nano / Raspberry Pi**)
 - Federated or on-device learning for enhanced privacy
+- Incremental user enrollment capability
+- Blockchain-based identity management for secure storage
 
-- Incremental user enrollment
-
-- Blockchain-based identity management
+---
 
 ## 📄 License
+This project is open-source and available for **academic and research** purposes only.
 
-This project is open-source and available for academic and research purposes only.
