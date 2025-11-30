@@ -31,6 +31,7 @@ It includes deep-learning-based feature extraction with *Vision Transformers (Vi
 ---
 
 ## 📂 Project Folder Structure
+```
 project/
 │── app.py
 │── config.py
@@ -38,24 +39,26 @@ project/
 │── .gitattributes
 │
 ├── models
-│ ├── ecg_model.py
-│ └── fingerprint_model.py
+│   ├── ecg_model.py
+│   └── fingerprint_model.py
 │
 ├── utils
-│ ├── preprocess_ecg.py
-│ └── preprocess_fingerprint.py
+│   ├── preprocess_ecg.py
+│   └── preprocess_fingerprint.py
 │
 ├── templates
-│ ├── index.html
-│ ├── result.html
-│ └── error.html
+│   ├── index.html
+│   ├── result.html
+│   └── error.html
 │
 ├── static
-│ ├── uploads/
-│ └── assets/
+│   ├── uploads/
+│   └── assets/
 │
 └── weights
-└── README.md
+    └── README.md
+```
+
 
 ---
 
