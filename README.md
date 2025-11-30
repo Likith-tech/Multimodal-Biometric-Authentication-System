@@ -71,7 +71,7 @@ cd Multimodal-Biometric-System
 pip install -r requirements.txt
 
 ### Run Application
-python app.py
+- python app.py
 
 ### Then open browser:
 http://localhost:5000
@@ -88,17 +88,17 @@ http://localhost:5000
 
 ## 🔮 Future Scope
 
-Mobile-based biometric authentication application
+- Mobile-based biometric authentication application
 
-Support for additional modalities (face / voice)
+- Support for additional modalities (face / voice)
 
-Edge-device deployment (Jetson Nano / Raspberry Pi)
+- Edge-device deployment (Jetson Nano / Raspberry Pi)
 
-Federated or on-device learning for enhanced privacy
+- Federated or on-device learning for enhanced privacy
 
-Incremental user enrollment
+- Incremental user enrollment
 
-Blockchain-based identity management
+- Blockchain-based identity management
 
 ## 📄 License
 
