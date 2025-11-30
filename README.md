@@ -78,13 +78,13 @@ http://localhost:5000
 
 ## 🌐 How It Works
 
-Upload a fingerprint image and ECG (.dat + .hea) file
+- Upload a fingerprint image and ECG (.dat + .hea) file
 
-System preprocesses & extracts feature embeddings using deep learning
+- System preprocesses & extracts feature embeddings using deep learning
 
-Individual predictions are fused using score-level averaging
+- Individual predictions are fused using score-level averaging
 
-Final identity result + confidence displayed on browser
+- Final identity result + confidence displayed on browser
 
 ## 🔮 Future Scope
 
