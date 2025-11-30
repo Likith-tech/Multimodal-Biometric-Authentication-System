@@ -59,22 +59,29 @@ project/
 
 ---
 
-## ⚙ Setup & Installation
+## ⚙️ Setup & Installation
 
-###  Clone Repository**
-bash
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/your-username/Multimodal-Biometric-System.git
 cd Multimodal-Biometric-System
+```
 
-### Install Dependencies
-
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-### Run Application
-- python app.py
+### 3️⃣ Run Application
+```bash
+python app.py
+```
 
-### Then open browser:
+### 4️⃣ Open in Browser
+```
 http://localhost:5000
+```
+
 
 ## 🌐 How It Works
 - Upload a **fingerprint image** and **ECG (.dat + .hea)** file
