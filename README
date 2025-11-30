@@ -1,4 +1,4 @@
-#🔐 Multimodal Biometric Authentication System (Fingerprint + ECG)
+# 🔐 Multimodal Biometric Authentication System (Fingerprint + ECG)
 
 This project is a secure and intelligent multimodal biometric authentication system that verifies identity using **fingerprint images** and **ECG time-series signals**. By combining anatomical and physiological biometric traits, the system delivers stronger spoof-resistance and robust authentication compared to traditional single-modality systems.
 
@@ -6,7 +6,7 @@ It includes deep-learning-based feature extraction with **Vision Transformers (V
 
 ---
 
-##🚀 Key Features
+## 🚀 Key Features
 - 🖐️ **Fingerprint Recognition** using Vision Transformer (ViT)
 - ❤️ **ECG-based biometric authentication** using Time-Series Transformer
 - 🔀 **Multimodal fusion** for final identity verification
@@ -17,7 +17,7 @@ It includes deep-learning-based feature extraction with **Vision Transformers (V
 
 ---
 
-##🧬 Technology Stack
+## 🧬 Technology Stack
 
 | Component | Details |
 |----------|---------|
@@ -61,22 +61,22 @@ project/
 
 ## ⚙️ Setup & Installation
 
-### **1️⃣ Clone Repository**
+###  Clone Repository**
 ```bash
 git clone https://github.com/your-username/Multimodal-Biometric-System.git
 cd Multimodal-Biometric-System
 
-Install Dependencies
+### Install Dependencies
 
 pip install -r requirements.txt
 
-Run Application
+### Run Application
 python app.py
 
-Then open browser:
+### Then open browser:
 http://localhost:5000
 
-##🌐 How It Works
+## 🌐 How It Works
 
 Upload a fingerprint image and ECG (.dat + .hea) file
 
@@ -86,7 +86,7 @@ Individual predictions are fused using score-level averaging
 
 Final identity result + confidence displayed on browser
 
-##🔮 Future Scope
+## 🔮 Future Scope
 
 Mobile-based biometric authentication application
 
@@ -100,6 +100,6 @@ Incremental user enrollment
 
 Blockchain-based identity management
 
-##📄 License
+## 📄 License
 
 This project is open-source and available for academic and research purposes only.
